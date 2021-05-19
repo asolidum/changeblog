@@ -36,11 +36,8 @@ disqusShortname = ""
 
 # Navigation Section
   [params.navigation]
-    title = "My Journal"
+    title = "READ.ME"
     subtitle = "By Alan Solidum"
-    menu = "Menu"
-    # Optional logo as brand stored in img/
-    # logo = "logo.png"
 
     [[params.navigation.links]]
       name = "Home"
