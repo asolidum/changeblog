@@ -1,6 +1,6 @@
 baseURL = "http://alansolidum.com"
 languageCode = "en-us"
-title = "READ.ME by Alan Solidum"
+title = "CHANGEBLOG by Alan Solidum"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -19,7 +19,7 @@ disqusShortname = ""
 
   # Provide your metadata here.
   name = "Alan Solidum"
-  description = "My online journal for documenting personal projects"
+  description = "My online log for documenting personal projects"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -36,7 +36,7 @@ disqusShortname = ""
 
 # Navigation Section
   [params.navigation]
-    title = "READ.ME"
+    title = "CHANGEBLOG"
     subtitle = "By Alan Solidum"
 
     [[params.navigation.links]]
