@@ -67,10 +67,10 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Showcase 1"
-      subtitle = "Sub 1"
-      image = "pic01.jpg"
-      url = "posts/hello-world"
+      title = "Making Ornaments"
+      subtitle = "... with the 3d printer"
+      image = "snowflake_all.jpg"
+      url = "posts/making-ornaments"
 
     [[params.tiles.showcase]]
       title = "Showcase 2"
