@@ -1,0 +1,8 @@
+{{ $array := split (.Get "images") "," }}
+<div class="singeImageRow">
+    {{ range $array }}
+    <div class="singleImageCol">
+        <img src="{{ . }}" style="width:100%">
+    </div>
+{{ end }}
+</div>
