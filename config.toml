@@ -68,7 +68,7 @@ disqusShortname = ""
     
     [[params.tiles.showcase]]
       title = "Making Ornaments"
-      subtitle = "... with the 3d printer"
+      subtitle = "with the 3d printer"
       image = "snowflake_all.jpg"
       url = "posts/making-ornaments"
 

@@ -12,11 +12,10 @@ Since we haven't had as many travel opportunities as her parents, our tree is cu
 
 Today, I visited one of my favorite 3D printing websites, [Thingiverse](https://www.thingiverse.com/).  After a bit of browsing, I found a [Snowflake Ornament Generator](https://www.thingiverse.com/thing:188481).
 
-Using Thingiverse's built in customizer, you can generate unique ornaments using a random seed value.  Here are the ones we created.
+Using Thingiverse's built in customizer, you can generate unique ornaments with a random seed value.  Here are the ones we created.
 
 {{< single_imgrow images="snowflake_00050118.jpg,snowflake_00023526.jpg,snowflake_32353783.jpg" >}} 
 
+[Thingiverse's customizer](https://www.thingiverse.com/customizer) is essentially a web UI for SCAD files.  Apparently, [OpenSCAD](https://openscad.org/) is an open-source 3D CAD modeling application that utilizes a scripting language. Hmmm... 3D printing and programming. Sounds like I'm gonna have to learn SCAD sometime soon.
 
-[Thingiverse's customizer](https://www.thingiverse.com/customizer) is essentially a web UI for SCAD files.  Apparently, [OpenSCAD](https://openscad.org/) is an open-source 3D CAD software modeler geared towards programmers. Hmmm... 3D printing and programming. Sounds like I'm gonna have to learn how to write SCAD files sometime soon.
-
-BTW, here are some other ornaments that I thought might be fun to print like [this](https://www.thingiverse.com/thing:563396) or [this](https://www.thingiverse.com/thing:2739855)
+BTW, here are some other ornaments that I thought might be fun to print like [this](https://www.thingiverse.com/thing:563396) or [this](https://www.thingiverse.com/thing:2739855).
