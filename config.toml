@@ -22,7 +22,7 @@ disqusShortname = ""
   description = "My online log for documenting personal projects"
 
   # Link custom assets relative to /static
-  custom_css = []
+  custom_css = [ "custom.css" ]
   custom_js  = []
   favicon    = "img/favicon.png"
 

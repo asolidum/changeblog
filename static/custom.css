@@ -1,0 +1,18 @@
+ /* Clearfix (clear floats) */
+.singeImageRow::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.singleImageCol {
+    float: left;
+    width: 33%;
+    padding: 7px;
+}
+
+@media screen and (max-width: 600px) {
+    .singleImageCol {
+      width: 100%;
+    }
+}
