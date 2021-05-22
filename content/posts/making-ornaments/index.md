@@ -1,6 +1,5 @@
 ---
 title: "Making Ornaments"
-destcription: "with the 3d printer"
 image: "../snowflake_all.jpg"
 date: 2019-12-23T20:28:57-07:00
 draft: true
