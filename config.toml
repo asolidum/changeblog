@@ -67,6 +67,12 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
+      title = "Securing the Changeblog Images"
+      subtitle = "with git hooks"
+      image = "securing_changeblog.gif"
+      url = "posts/securing-changeblog-images"
+
+    [[params.tiles.showcase]]
       title = "Making Ornaments"
       subtitle = "with the 3d printer"
       image = "snowflake_all.jpg"
