@@ -1,5 +1,6 @@
 ---
 title: "Making Ornaments"
+subtitle: "with the 3D printer"
 image: "../snowflake_all.jpg"
 alt: "Holding 3D printed snowflake ornaments"
 date: 2019-12-23T20:28:57-07:00

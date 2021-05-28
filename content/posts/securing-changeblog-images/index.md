@@ -1,7 +1,8 @@
 ---
-title: "Securing Changeblog Images using git hooks"
+title: "Securing Changeblog Images"
+subtitle: "using git hooks"
 image: "../securing_changeblog.gif"
-alt: ""
+alt: "Exiftool in action"
 date: 2021-05-25T14:22:18-07:00
 draft: true
 ---
