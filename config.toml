@@ -68,7 +68,7 @@ disqusShortname = ""
     
     [[params.tiles.showcase]]
       title = "Securing the Changeblog Images"
-      subtitle = "with git hooks"
+      subtitle = "using git hooks"
       image = "securing_changeblog.gif"
       url = "posts/securing-changeblog-images"
 
