@@ -31,32 +31,6 @@
                         {{ end }}
                     </div>
                 </section>
-                <section>
-                    <div class="contact-method">
-                        <span class="icon alt fa-phone"></span>
-                        {{ range .Site.Params.Contact.phone }}
-                        <h3>{{ .title }}</h3>
-                        <span>{{ .phone }}</span>
-                        {{ end }}
-                    </div>
-                </section>
-                <section>
-                    <div class="contact-method">
-                        <span class="icon alt fa-home"></span>
-                        {{ range .Site.Params.Contact.address }}
-                        <h3>{{ .title }}</h3>
-                        <span>{{ if .name }}{{ .name }}<br />{{end}}
-                        {{ if .street }}{{ .street }}<br />{{end}}
-                        {{ if .address }}{{ .address }}<br />{{end}}
-                        {{ if .address2 }}{{ .address2 }}<br />{{end}}
-                        {{ if .city }}{{ .city }}{{ end }}
-                        {{ if .state }}{{ .state }},{{ end }}
-                        {{ if .zip }}{{ .zip }}{{ end }}
-                        {{ if .country }} <br /> {{ .country }} {{ end }}
-                        </span>
-                        {{ end }}
-                    </div>
-                </section>
             </section>
         </div>
     </section>
