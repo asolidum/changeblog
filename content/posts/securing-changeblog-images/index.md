@@ -4,7 +4,7 @@ subtitle: "using git hooks"
 image: "../securing_changeblog.gif"
 alt: "Exiftool in action"
 date: 2021-05-25T14:22:18-07:00
-draft: true
+draft: false
 ---
 ## The issue
 
