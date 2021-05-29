@@ -117,7 +117,7 @@ disqusShortname = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
+    email = "hi@alansolidum.com"
 
     [[params.contact.phone]]
     title = "Phone"
