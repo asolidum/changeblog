@@ -5,7 +5,7 @@ variables:
 
 pages:
   script:
-  - hugo --baseURL="http://a1s0.gitlab.io/ChangeBlog"
+  - hugo
   artifacts:
     paths:
     - public
