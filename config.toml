@@ -1,4 +1,4 @@
-baseURL = "http://alansolidum.com"
+baseURL = "https://alansolidum.com"
 languageCode = "en-us"
 title = "CHANGEBLOG by Alan Solidum"
 theme = "forty"
