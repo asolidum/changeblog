@@ -51,6 +51,9 @@ disqusShortname = ""
       name = "Photos"
       url = "photos"
 
+    [[params.navigation.links]]
+      name = "About"
+      url = "about"
 
   # Banner section
   [params.banner]
