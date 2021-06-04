@@ -44,14 +44,6 @@ disqusShortname = ""
       url = "#"
 
     [[params.navigation.links]]
-      name = "Projects"
-      url = "projects"
-
-    [[params.navigation.links]]
-      name = "Photos"
-      url = "photos"
-
-    [[params.navigation.links]]
       name = "About"
       url = "about"
 
