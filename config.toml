@@ -82,7 +82,6 @@ disqusShortname = ""
 
   # Section Type Two
   [params.two]
-    enable = true
     title = "Massa libero"
     subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
     Mauris aliquet magna magna sed nunc rhoncus pharetra. 
@@ -90,6 +89,7 @@ disqusShortname = ""
     Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
     Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
     buttonText = "Get Started"
+    enable = false
     url = "posts/hello-world"
 
 
