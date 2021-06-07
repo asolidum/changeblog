@@ -92,6 +92,8 @@
 			$header = $('#header'),
 			$banner = $('#banner');
 
+		var prevScrollpos = window.pageYOffset;
+
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
 
@@ -190,33 +192,20 @@
 
 			});
 
+            $window.on('scroll', function() {
+				var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos < currentScrollPos) {
+                    $header.addClass('alt'); 
+                } else {
+				    $header.removeClass('alt'); $header.addClass('reveal');
+                }
+                prevScrollpos = currentScrollPos;
+			});
+
+
 		// Header.
 			if (skel.vars.IEVersion < 9)
 				$header.removeClass('alt');
-
-			if ($banner.length > 0
-			&&	$header.hasClass('alt')) {
-
-				$window.on('resize', function() {
-					$window.trigger('scroll');
-				});
-
-				$window.on('load', function() {
-
-					$banner.scrollex({
-						bottom:		$header.height() + 10,
-						terminate:	function() { $header.removeClass('alt'); },
-						enter:		function() { $header.addClass('alt'); },
-						leave:		function() { $header.removeClass('alt'); $header.addClass('reveal'); }
-					});
-
-					window.setTimeout(function() {
-						$window.triggerHandler('scroll');
-					}, 100);
-
-				});
-
-			}
 
 		// Banner.
 			$banner.each(function() {
