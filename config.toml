@@ -19,7 +19,7 @@ disqusShortname = ""
 
   # Provide your metadata here.
   name = "Alan Solidum"
-  description = "My online log for documenting personal projects"
+  description = "Built mobile SDK with compl. RoR/Golang API backend that grew to an install base of over 50 million iOS/Android devices"
 
   # Link custom assets relative to /static
   custom_css = [ "custom.css" ]
