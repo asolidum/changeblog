@@ -96,7 +96,7 @@ disqusShortname = ""
   # Contact section
   [params.contact]
     enable = true
-    buttonSend = "Send message"
+    buttonSend = "Get In Touch"
     buttonClear = "Clear"
 
     formEndpoint = "https://smartforms.dev/submit/60b143ef32d3172d393a45dd"
