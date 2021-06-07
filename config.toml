@@ -51,9 +51,9 @@ disqusShortname = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-     title = "Hi, I'm the banner"
-     subtitle = "I'm the subtitle"
-     buttonText = "Get Started"
+     title = "Hello World"
+     subtitle = "I'm a software engineer with broad-based experience in industries ranging from advertising to satellite communications. At my last two companies, I developed data products generating monthly recurring revenue. Recently, I've built a mobile SDK with corresponding RoR/Golang API backend that eventually grew to an install base of over 50+ million iOS/Android devices."
+     buttonText = "Read This For More"
 
 
   # Tiles Section
@@ -82,14 +82,10 @@ disqusShortname = ""
 
   # Section Type Two
   [params.two]
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
-    enable = false
+    enable = true
+    title = "Hello World"
+    subtitle = "I'm a software engineer with broad-based experience in industries ranging from advertising to satellite communications. At my last two companies, I developed data products generating monthly recurring revenue. Recently, I've built a mobile SDK with corresponding RoR/Golang API backend that eventually grew to an install base of over 50+ million iOS/Android devices."
+    buttonText = "Read This For More"
     url = "posts/hello-world"
 
 
