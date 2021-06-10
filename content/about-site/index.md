@@ -4,11 +4,10 @@ image: ""
 alt: ""
 date: 2021-06-01T16:29:18-07:00
 draft: false
+aliases: "debug"
 ---
 
-Back in the day, this site used to be [Wordpress][wordpress.link] running on [Dreamhost][dreamhost.link] servers. I then converted it to [Jekyll][jekyll.link] running on [Github Pages][github.link] with images served by [Flickr][flickr.link].
-
-It has upgraded once again to use [Hugo][hugo.link] running on [Gitlab Pages][gitlab.link].
+Back in the day, this site used to be [Wordpress][wordpress.link] running on [Dreamhost][dreamhost.link] servers. It was then converted to [Jekyll][jekyll.link] running on [Github Pages][github.link] with images served by [Flickr][flickr.link].  Recently, it has upgraded to [Hugo][hugo.link] running on [Gitlab Pages][gitlab.link].
 
 By moving away from Wordpress, this site is noticeably faster, more secure and free to host.  I would highly recommend static site generators (SSG) for any developer interested in putting up a site.
 
