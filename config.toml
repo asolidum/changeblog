@@ -44,8 +44,8 @@ disqusShortname = ""
       url = "#"
 
     [[params.navigation.links]]
-      name = "About Site"
-      url = "about-site"
+      name = "About"
+      url = "about"
 
   # Banner section
   [params.banner]
@@ -87,7 +87,7 @@ disqusShortname = ""
     title = "Hello World"
     subtitle = "I'm a software engineer with broad-based experience in industries ranging from advertising to satellite communications. At my last two companies, I developed data products generating monthly recurring revenue. Recently, I've built a mobile SDK with corresponding RoR/Golang API backend that eventually grew to an install base of over 50+ million iOS/Android devices."
     buttonText = "Read This For More"
-    url = "posts/hello-world"
+    url = "about"
 
 
   # Contact section
