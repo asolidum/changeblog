@@ -12,6 +12,9 @@
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "css/ie9.css" }}"/><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "css/ie8.css" }}"/><![endif]-->
 
+	{{ if .Site.Params.GoogleOptimize }}
+    <script src="https://www.googleoptimize.com/optimize.js?id={{ .Site.Params.GoogleOptimize }}"></script>
+	{{ end }}
 	{{ if .Site.Params.GoogleTagManager }}
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
