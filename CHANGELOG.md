@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.1.2] - 2021-06-11
+### Added
+- About page with developer info added
+- Functionality for Google Optimize and Tag Manager added
+
+### Changed
+- Nav bar disappears on user scrolling down and reappears when user scrolls up
+- Previous about page showing tech used on site renamed to about-site
+
 ## [0.1.1] - 2021-06-04
 ### Added
 - About page displaying old site info and current site technology
