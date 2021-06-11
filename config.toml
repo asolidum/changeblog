@@ -20,6 +20,8 @@ disqusShortname = ""
   # Provide your metadata here.
   name = "Alan Solidum"
   description = "Built mobile SDK with compl. RoR/Golang API backend that grew to an install base of over 50 million iOS/Android devices"
+  # Enter your code to enable Google tracking
+  googleOptimize = "OPT-M9N3CHM"
 
   # Link custom assets relative to /static
   custom_css = [ "custom.css" ]
