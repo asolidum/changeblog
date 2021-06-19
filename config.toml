@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "CHANGEBLOG by Alan Solidum"
 theme = "forty"
 
+enableGitInfo = true
+
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-5768774-6"
 
