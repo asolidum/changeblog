@@ -1,0 +1,3 @@
+{{ $title := .Title }}
+{{ $subtitle := index .Params "subtitle" | string }}
+{{ print $title " " $subtitle }}

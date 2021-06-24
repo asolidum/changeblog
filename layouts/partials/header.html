@@ -5,7 +5,7 @@
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 	{{ hugo.Generator }}
-	<title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
+	<title>{{ partial "title.html" . }}</title>
 	{{ "<!-- Stylesheets -->" | safeHTML }}
 	<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="{{ "css/main.css" | absURL}}"/>
