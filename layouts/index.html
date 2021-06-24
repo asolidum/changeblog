@@ -3,11 +3,13 @@
 
 	{{ partial "header.html" . }}
 	<body>
+	{{ if hugo.IsProduction }}
 	{{ if .Site.Params.GoogleTagManager }}
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.GoogleTagManager }}"
 			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
+	{{ end }}
 	{{ end }}
 
 	{{ "<!-- Wrapper -->" | safeHTML }}
