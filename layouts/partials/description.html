@@ -1,0 +1,5 @@
+{{ $description := index .Params "description" | string }}
+{{ if eq $description "" }}
+    {{ $description = .Site.Params.description }}
+{{ end }}
+<meta name="description" content="{{ $description }}">
