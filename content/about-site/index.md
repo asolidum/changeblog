@@ -2,6 +2,7 @@
 title: "About this Site"
 image: ""
 alt: ""
+description: "Back in the day, this site used to be Wordpress running on Dreamhost servers. Wanna know what current technology stack powers this site now?"
 date: 2021-06-01T16:29:18-07:00
 draft: false
 aliases: "debug"
