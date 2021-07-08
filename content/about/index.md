@@ -13,7 +13,7 @@ Having started my programming career in [robotics][robot.link], I enjoy creating
 [campbells.link]: https://mashable.com/2013/01/11/campbells-soup-invites-developers-to-hack-the-kitchen
 [submission_video.link]: https://www.youtube.com/watch?v=-qlZ_x3_hgM
 
-I then joined the team at [Happy Hour Pal][hhp.link], an app serving Hawaii, San Diego, Portland, and other markets.  We introduced [Bluetooth Low-Energy (BLE) devices][estimote.link] to automate user check-ins for local business discounts.  With the overwhelming interest in our customized check-in analytics, we pivoted and founded [AreaMetrics][am.link].  Soon we developed a [mobile SDK][sdk.link] with a corresponding RoR/Golang API backend that eventually integrated into 100+ apps, handled hundreds of millions of daily requests, and grew to an install base of over 50+ million iOS/Android devices.
+I then joined the team at [Happy Hour Pal][hhp.link], an app serving Hawaii, San Diego, Portland, and other markets.  We introduced [Bluetooth Low-Energy (BLE) devices][estimote.link] to automate user check-ins for local business discounts.  With the overwhelming interest in our customized check-in analytics, we pivoted and founded [AreaMetrics][am.link].  Soon we developed a [mobile SDK][sdk.link] with a corresponding RoR/Golang API backend that eventually integrated into 100+ apps, grew to an install base of over 50+ million iOS/Android devices and generated an average monthly recurring revenue of $53K.
 
 [hhp.link]: https://www.facebook.com/HappyHourPal
 [estimote.link]: https://community.estimote.com/hc/en-us/articles/202627816-Join-over-60-000-foodies-across-the-US-and-enjoy-happy-hours-with-Happy-Hour-Pal

@@ -9,7 +9,7 @@ draft: false
 ---
 ## The issue
 
-As I add more content to this site, I want to ensure the images are free of [EXIF][exif.link] geolocation data. I prefer maintaining some level of privacy, given a decent portion of these images are taken at my work or home.
+As I add more content to this site, I want to ensure the images are free of [EXIF][exif.link] geolocation data. I prefer maintaining some level of privacy since a decent portion of these images are taken at my work/home.
 
 I could turn off geotagging of my images during capture, but I ultimately like retaining the GPS data of where those moments occurred.
 
@@ -39,7 +39,7 @@ done
 ```
 The above script removes geotag info on any added/modified pre-committed files.  Note, if you're interested in trying this out yourself, make sure you have [exiftool][exiftool.link] installed locally on your machine.
 
-Occasionally we'll want to retain the image geolocation data and this can be achieved temporarily by using the `--no-verify` option when performing a `git commit`.
+Occasionally we'll want to retain the image geolocation data and can temporarily achieve this by using the `--no-verify` option when performing a `git commit`.
 
 ## Alternative solutions/enhancements
 
@@ -47,7 +47,7 @@ Occasionally we'll want to retain the image geolocation data and this can be ach
 
 * Create temporary debug `<figcaption>` elements that display any existing geolocation data while running a local/development blog instance. Thus I would receive visual feedback of any undesirable geotags still present while developing the site.
 
-* Update the `pre-commit` git hook to reduce the image GPS resolution down to the city/neighborhood level instead of complete removal.  This would allow us to continue including geolocation data while providing an acceptable level of privacy.
+* Update the `pre-commit` git hook to reduce the image GPS resolution down to the city/neighborhood level instead of complete removal.  This allows us to continue including geolocation data while providing an acceptable level of privacy.
 
 [exif.link]: https://en.wikipedia.org/wiki/Exif
 [exiftool.link]: https://exiftool.org/
