@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.1.4] - 2021-07-17
+### Added
+- New post (DIY Solder Fume Extractor) published
+- Add ability to use emojis in posts
+- Allow rendering of RAW HTML so we can use HTML tags like `<img>`, etc
+
+### Changed
+- Update content on main, about and securing changeblog images posts 
+
 ## [0.1.3] - 2021-06-27
 ### Added
 - Offer up alansolidum.com as canonical link
