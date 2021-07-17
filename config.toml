@@ -75,6 +75,12 @@ disqusShortname = ""
       url = "posts/securing-changeblog-images"
 
     [[params.tiles.showcase]]
+      title = "DIY Solder Fume Extractor"
+      subtitle = "built with a fan, filter and filament"
+      image = "fan_cover.png"
+      url = "posts/solder-fume-extractor"
+
+    [[params.tiles.showcase]]
       title = "Making Ornaments"
       subtitle = "with the 3d printer"
       image = "snowflake_all.jpg"
