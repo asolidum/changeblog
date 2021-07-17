@@ -13,6 +13,11 @@ disqusShortname = ""
 
 enableEmoji = true
 
+# Following lines allow rendering of RAW HTML
+# eg. <img> tags
+[markup.goldmark.renderer]
+unsafe= true
+
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source)
   # To create multi-line text in strings use the """example Text""" format
