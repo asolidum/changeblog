@@ -20,7 +20,7 @@ I then joined the team at [Happy Hour Pal][hhp.link], an app serving Hawaii, San
 [am.link]: https://areametrics.com
 [sdk.link]: https://github.com/areametrics
 
-Some years later, [Point Inside][pi.link] acquired our startup, and I helped facilitate the seamless integration of our technology/engineering team into their infrastructure. I would also create the company's first [AWS Data Exchange][aws_exchange.link] products.
+Some years later, [Point Inside][pi.link] acquired our startup, and I helped facilitate the seamless integration of our technology/engineering team into their infrastructure. I would also create the company's first commercial [AWS Data Exchange][aws_exchange.link] products.
 
 [pi.link]: https://www.pointinside.com
 [aws_exchange.link]: https://aws.amazon.com/marketplace/search/results?searchTerms=point+inside
