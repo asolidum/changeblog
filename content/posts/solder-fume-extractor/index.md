@@ -28,14 +28,15 @@ Our housing should fulfill some basic requirements:
 * Protect the fan blades from debris
 * Support easy filter replacement
 
-<img src="scad_screenshot.png" style="width:100%">
+{{< imgset image="scad_screenshot.png" alt="Screenshot of OpenSCAD model rendering of DIY solder fume extractor" style="width:100%" >}}
 
 Attaching the filter as close as possible to the fan should simplify our design.  I found this [Customizable Fan Grill Cover](https://www.thingiverse.com/thing:2802474) 3d model on [Thingiverse](https://www.thingiverse.com) that provides both fan protection and a clever way to mount our filter next to the fan.  Not to mention, we'll only need to deal with 4 screws to assemble this build and change out the filter.  Looks like we've fulfilled our 3 basic requirements! :satisfied::white_check_mark:
 
 The SCAD file contains one key variable (`cover height in millimeter`) that is significant for our build.  We will match the housing height to the height of the compost filter (~8mm). By adjusting this value, we now have an inlay in our fan cover to perfectly fit our charcoal filter.
 
 Here are the settings, I used for my particular filter and fan setup.
-<img src="custom_fan_settings.png" style="width:100%">
+
+{{< imgset image="custom_fan_settings.png" alt="SCAD settings for filter and fan setup" style="width:n0%" >}}
 
 After mounting all the parts, I tested the assembly to make sure it was indeed absorbing the fumes. :fireworks::clap:
 <img src="fume_test.gif" style="width:100%">
