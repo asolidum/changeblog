@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.1.5] - 2021-07-31
+### Added
+- Automated creation of small, medium and large image sizes using `<srcset>` tag
+
+### Changed
+- Update existing content images to use `<srcset>` shortcode tag
+
 ## [0.1.4] - 2021-07-17
 ### Added
 - New post (DIY Solder Fume Extractor) published
