@@ -1,0 +1,34 @@
+{{ $original := .Page.Resources.GetMatch (.Get "image") }}
+{{ $alt := (.Get "alt") }}
+{{ $style := (.Get "style") }}
+
+{{ $width_lrg := 1080 }}
+{{ $width_med := 768 }}
+{{ $width_sml := 640 }}
+
+{{/* Create strings specifying widths */}}
+{{ $width_lrg_str := string $width_lrg }}
+{{ $width_lrg_strx := print $width_lrg_str "x" }}
+{{ $width_lrg_strw := print $width_lrg_str "w" }}
+{{ $width_med_str := string $width_med }}
+{{ $width_med_strx := print $width_med_str "x" }}
+{{ $width_med_strw := print $width_med_str "w" }}
+{{ $width_sml_str := string $width_sml }}
+{{ $width_sml_strx := print $width_sml_str "x" }}
+{{ $width_sml_strw := print $width_sml_str "w" }}
+
+{{/* Resize original images to various sizes */}}
+{{ $image_lrg := $original.Resize $width_lrg_strx }}
+{{ $image_med := $original.Resize $width_med_strx }}
+{{ $image_sml := $original.Resize $width_sml_strx }}
+
+{{ if gt $original.Width $width_lrg }}
+    {{/* Generate srcset for sml, med, lrg images */}}
+    <img src="{{ $image_sml.RelPermalink }}" srcset="{{ $image_lrg.RelPermalink }} {{ $width_lrg_strw }}, {{ $image_med.RelPermalink }} {{ $width_med_strw }}" alt="{{ $alt }}" style="{{ $style }}">
+{{ else if gt $original.Width $width_med }}
+    {{/* Generate srcset for sml, med images */}}
+    <img src="{{ $image_sml.RelPermalink }}" srcset="{{ $image_med.RelPermalink }} {{ $width_med_strw }}" alt="{{ $alt }}" style="{{ $style }}">
+{{ else }}
+    {{/* Orig image resolution is smaller than sml width so just use regular <img> tag */}}
+    <img src="{{ $image_sml.RelPermalink }}" alt="{{ $alt }}" style="{{ $style }}">
+{{ end }}
