@@ -167,6 +167,11 @@ unsafe= true
       label = "LinkedIn"
       
     [[params.footer.social]]
+      icon = "fa-bitbucket"
+      url= "https://bitbucket.org/asolidum"
+      label = "BitBucket"
+
+    [[params.footer.social]]
       icon = "fa-github"
       url= "https://github.com/asolidum"
       label = "GitHub"
