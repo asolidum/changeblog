@@ -3,13 +3,13 @@ title: "DIY Solder Fume Extractor"
 subtitle: "built with a fan, filter and filament" 
 image: "../fan_cover.png"
 alt: "Fan cover with inlay for carbon filter"
-description: "I'm increasingly working with electronic circuits. Here's how I built a DIY solder fume extractor with just a fan, a filter and a 3D printer"
+description: "I'm increasingly working with electronic circuits. Here's how I built a DIY solder fume extractor with just a fan, filter and filament"
 date: 2021-02-16T18:31:18-07:00
 draft: false
 ---
 Some of my latest projects require soldering electronic circuits that can emit noxious fumes during that process.  Excessive inhalation of these emissions is a common concern especially in poorly ventilated workspaces such as mine.  To remedy this issue, some people use solder fume extractors to capture the harmful smoke.
 
-After researching some online DIY examples like this [Instructables post](https://www.instructables.com/DIY-Fume-Extractor-for-5/) or this [YouTube video](https://www.youtube.com/watch?v=tibb_jtpTpk), I concluded that most DIY fume builds are composed of three basic components: a filter, a fan, and a housing.
+After researching some online DIY examples like this [Instructables post](https://www.instructables.com/DIY-Fume-Extractor-for-5) or this [YouTube video](https://www.youtube.com/watch?v=tibb_jtpTpk), I concluded that most DIY fume builds are composed of three basic components: a filter, a fan, and a housing.
 
 ## The Build
 
@@ -36,10 +36,11 @@ The SCAD file contains one key variable (`cover height in millimeter`) that is s
 
 Here are the settings, I used for my particular filter and fan setup.
 
-{{< imgset image="custom_fan_settings.png" alt="SCAD settings for filter and fan setup" style="width:n0%" >}}
+{{< imgset image="custom_fan_settings.png" alt="SCAD settings for filter and fan setup" style="width:100%" >}}
 
 After mounting all the parts, I tested the assembly to make sure it was indeed absorbing the fumes. :fireworks::clap:
-<img src="fume_test.gif" style="width:100%">
+
+<img src="fume_test.gif" style="width:100%" alt="Testing the Solder Fume Extractor">
 
 ## Final Thoughts
 
