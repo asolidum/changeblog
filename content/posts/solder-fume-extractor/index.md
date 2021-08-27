@@ -9,7 +9,7 @@ draft: false
 ---
 Some of my latest projects require soldering electronic circuits that can emit noxious fumes during that process.  Excessive inhalation of these emissions is a common concern especially in poorly ventilated workspaces such as mine.  To remedy this issue, some people use solder fume extractors to capture the harmful smoke.
 
-After researching some online DIY examples like this [Instructables post](https://www.instructables.com/DIY-Fume-Extractor-for-5) or this [YouTube video](https://www.youtube.com/watch?v=tibb_jtpTpk), I concluded that most DIY fume builds are composed of three basic components: a filter, a fan, and a housing.
+After researching some online DIY examples like this [Instructables post](https://www.instructables.com/DIY-Fume-Extractor-for-5) or this [YouTube video](https://www.youtube.com/watch?v=tibb_jtpTpk), I concluded that most DIY fume builds are composed of three basic components: a filter, a fan, and a housing (and in our case, fabricated with a 3D printer and inexpensive filament).
 
 ## The Build
 
@@ -47,3 +47,5 @@ After mounting all the parts, I tested the assembly to make sure it was indeed a
 This build was a proof of concept to validate seamless integration of all the parts.  However, the fume extractor's performance was less than desirable likely stemming from the fan's low airflow rating (58 CFM).  Any future updates should benefit from a higher CFM value fan.
 
 It also goes without saying that without the customizable SCAD model, we couldn't have easily imagined this creative solution.  Special thanks to the fan cover model creator, [@mightynozzle](https://www.thingiverse.com/mightynozzle/designs) (Dennis H).
+
+...And this is yet another reminder that I need to learn SCAD so I can create my own models.
