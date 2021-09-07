@@ -108,7 +108,7 @@ unsafe= true
 
   # Section Type Two
   [params.two]
-    enable = true
+    enable = false
     title = "Hello World"
     subtitle = "As a software/data engineer with broad-based experience in industries ranging from advertising to satellite communications, I enjoy gathering/analyzing data and optimizing systems. At my last two companies, I developed data products that generated an average monthly recurring revenue of $53K. Recently, I've built a mobile SDK with a complementary RoR/Golang API backend that eventually grew to an install base of over 50+ million iOS/Android devices."
     buttonText = "Read This For More"
