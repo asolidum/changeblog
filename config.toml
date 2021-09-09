@@ -164,7 +164,12 @@ unsafe= true
       icon = "fa-linkedin"
       url= "https://www.linkedin.com/in/alansolidum"
       label = "LinkedIn"
-      
+
+    [[params.footer.social]]
+      icon = "fa-angellist"
+      url= "https://angel.co/u/also"
+      label = "AngelList"
+
     [[params.footer.social]]
       icon = "fa-bitbucket"
       url= "https://bitbucket.org/asolidum"
