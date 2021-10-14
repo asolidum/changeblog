@@ -76,6 +76,12 @@ unsafe= true
     # Display your showcases here.
     
     [[params.tiles.showcase]]
+      title = "Validating Photo Uploads"
+      subtitle = "with the Google Java API"
+      image = "google_photos.jpg"
+      url = "posts/validating-photo-uploads"
+
+    [[params.tiles.showcase]]
       title = "Securing Changeblog Images"
       subtitle = "using git hooks"
       image = "securing_changeblog.gif"
@@ -92,12 +98,6 @@ unsafe= true
       subtitle = "with the 3d printer"
       image = "snowflake_all.jpg"
       url = "posts/making-ornaments"
-
-    [[params.tiles.showcase]]
-      title = "Another fun build"
-      subtitle = "coming soon..."
-      image = ""
-      url = ""
 
     [params.blog]
     # All blogs defined in their own files. You can find example blogs
