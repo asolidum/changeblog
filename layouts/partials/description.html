@@ -1,5 +1,8 @@
 {{ $description := index .Params "description" | string }}
 {{ if eq $description "" }}
     {{ $description = .Site.Params.description }}
+# Add author name to meta description
+{{ else }}
+    {{ $description = (print $description " (by " .Site.Params.name ")") }}
 {{ end }}
 <meta name="description" content="{{ $description }}">
