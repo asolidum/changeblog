@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.1.6] - 2021-10-15
+### Added
+- AngelList and Bitbucket social link added to footer
+- Created new post for Verito Google Photos validation tool
+
+### Changed
+- Update content in solder fume extractor post
+- Updated banner image
+
 ## [0.1.5] - 2021-07-31
 ### Added
 - Automated creation of small, medium and large image sizes using `<srcset>` tag
