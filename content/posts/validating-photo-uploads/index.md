@@ -26,11 +26,11 @@ The Java API client also supports date filtering.  With this functionality, only
 Guess the language we're going to use will be Java instead.  Go [here](https://developers.google.com/photos/library/guides/get-started-java) for more details on how to install and configure the Java client library.
 
 ### Two classes? Or more?
-My initial assessment is Verito GP will be composed of two classes, VeritoFilelist and VeritoAPI.
+My initial assessment is Verito GP will be composed of two classes, `VeritoFilelist` and `VeritoAPI`.
 
-The VeritoFilelist class will handle file operations such as filtering invalid files and determining the earliest and latest file creation times in the specified directory.  The VeritoAPI class will be responsible for setting up access scopes, obtaining tokens and communicating with the GP server.
+The `VeritoFilelist` class will handle file operations such as filtering invalid files and determining the earliest and latest file creation times in the specified directory.  The `VeritoAPI` class will be responsible for setting up access scopes, obtaining tokens and communicating with the GP server.
 
-Date functionality such as converting between Google and Local date types started cluttering up the VeritoFilelist class causing me to move those methods into the VeritoDate class.  Consequently, this also simplified testing.
+Date functionality such as converting between Google and Local date types started cluttering up the `VeritoFilelist` class causing me to move those methods into the `VeritoDate` class.  Consequently, this also simplified testing.
 
 
 ## Final Thoughts
