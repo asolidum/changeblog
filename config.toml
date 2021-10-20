@@ -161,6 +161,11 @@ unsafe= true
       label = "Twitter"
 
     [[params.footer.social]]
+      icon = "fa-pinterest"
+      url= "https://www.pinterest.com/asolidum"
+      label = "Pinterest"
+
+    [[params.footer.social]]
       icon = "fa-linkedin"
       url= "https://www.linkedin.com/in/alansolidum"
       label = "LinkedIn"
@@ -189,3 +194,8 @@ unsafe= true
       text = "3D Printer: "
       url= "https://www.thingiverse.com/a1s0"
       alt = "Thingiverse"
+
+    [[params.footer.quicklinks]]
+      text = "Maker: "
+      url = "https://www.instructables.com/member/a1s0"
+      alt = "Instructables"
