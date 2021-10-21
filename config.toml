@@ -65,7 +65,7 @@ unsafe= true
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
      title = "Hello World"
-     subtitle = "As a software/data engineer with broad experience in several industries (advertising, satellite communications, robotics and more), I enjoy gathering/analyzing data and optimizing systems. I developed data products that generated an average monthly recurring revenue of $53K. Recently, I've built a mobile SDK with a complementary RoR/Golang API backend that eventually grew to an install base of over 50+ million iOS/Android devices."
+     subtitle = "As a software/data engineer with broad experience in several industries (advertising, satellite comms, robotics and more), I enjoy gathering/analyzing data and optimizing systems. I developed data products that generated an average monthly recurring revenue of $53K. Recently, I've built a mobile SDK with a complementary RoR/Golang API backend that eventually grew to an install base of over 50+ million iOS/Android devices."
      buttonText = "Read This For More"
      url = "about"
 
@@ -110,7 +110,7 @@ unsafe= true
   [params.two]
     enable = false
     title = "Hello World"
-    subtitle = "As a software/data engineer with broad experience in several industries (advertising, satellite communications, robotics and more), I enjoy gathering/analyzing data and optimizing systems. I developed data products that generated an average monthly recurring revenue of $53K. Recently, I've built a mobile SDK with a complementary RoR/Golang API backend that eventually grew to an install base of over 50+ million iOS/Android devices."
+    subtitle = "As a software/data engineer with broad experience in several industries (advertising, satellite comms, robotics and more), I enjoy gathering/analyzing data and optimizing systems. I developed data products that generated an average monthly recurring revenue of $53K. Recently, I've built a mobile SDK with a complementary RoR/Golang API backend that eventually grew to an install base of over 50+ million iOS/Android devices."
     buttonText = "Read This For More"
     url = "about"
 
