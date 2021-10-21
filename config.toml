@@ -79,7 +79,7 @@ unsafe= true
       title = "Validating Media Uploads"
       subtitle = "with the Google Photos Java API client"
       image = "google_photos.jpg"
-      url = "posts/validating-photo-uploads"
+      url = "posts/validating-media-uploads"
 
     [[params.tiles.showcase]]
       title = "Securing Changeblog Images"
