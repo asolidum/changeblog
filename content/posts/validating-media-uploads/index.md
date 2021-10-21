@@ -1,12 +1,13 @@
 ---
-title: "Validating Photos Uploads"
-subtitle: "with the Google Java API client" 
+title: "Validating Media Uploads"
+subtitle: "with the Google Photos Java API client" 
 image: "../google_photos.jpg"
 alt: "Google Photos albums page view"
 description: "Verito GP (Google Photos) is a validation tool to ensure that all the files in a specific folder successfully upload to your GP account"
 date: 2021-09-15T09:31:18-07:00
 category: [ "projects" ]
 tag: ["google photos", "java" ]
+aliases: ["validating-photo-uploads"]
 draft: false
 ---
 I'm a big fan of [Google Photos][gp.link] (GP) from the ease of sharing photos/videos, ability to run [Google-like searches][gpsearch.link] on your collection, [live albums][live.link] (automated image placement by subject), non-destructive editing functionality (similar to Adobe Lightroom), etc.  Here's a nice [overview][overview.link] to learn more.
@@ -51,7 +52,6 @@ Date functionality such as converting between Google and Local date types starte
 One further optimization to consider is creating a local database for storing Google Photos API results.  While this would require us to set up a local datastore, it could drastically reduce API requests and save time.  If [Verito GP][veritogp.link] performance becomes an issue, we should reconsider this solution.
 
 Check out the [git repo][git.link]
-
 
 [veritogp.link]: https://gitlab.com/a1s0/verito_gp
 [git.link]: https://gitlab.com/a1s0/verito_gp

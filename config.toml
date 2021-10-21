@@ -76,8 +76,8 @@ unsafe= true
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Validating Photo Uploads"
-      subtitle = "with the Google Java API"
+      title = "Validating Media Uploads"
+      subtitle = "with the Google Photos Java API client"
       image = "google_photos.jpg"
       url = "posts/validating-photo-uploads"
 
