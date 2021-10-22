@@ -1,0 +1,31 @@
+{{ $author := index .Params "author" | string }}
+{{ if eq $author "" }}
+    {{ $author = .Site.Params.name }}
+{{ end }}
+{{ $date := index .Params "date" }}
+
+{{ if or (ne $author "" ) (ne $date "") }}
+    <!-- Display text as
+        - if both date and author set
+            Posted on Jan 2, 2006 / by Author
+        - if only date set
+            Posted on Jan 01, 2006
+        - if only author set
+            Posted by Author
+    -->
+    <p id="postinfo">Posted 
+        {{ with $date }}
+            on {{ $date.Format "Jan 2, 2006" }}
+        {{ end }}
+        <!--
+            Only display '/' if both
+            date and autorh present
+        -->
+        {{ if and (ne $author "") (ne $date "") }}
+        / 
+        {{ end }}
+        {{ with $author }}
+            by {{ $author }}
+        {{ end }}
+    </p>
+{{ end }}

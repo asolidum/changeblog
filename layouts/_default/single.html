@@ -25,6 +25,7 @@
                                 <span class="image main"><img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="{{ .Params.alt }}" /></span>
                             {{ end }}
                             {{ .Content }}
+                            {{ partial "postinfo.html" . }}
                         </div>
                     </section>
             {{ "<!-- Disqus Inject -->" | safeHTML }}
