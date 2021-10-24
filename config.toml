@@ -3,11 +3,6 @@ languageCode = "en-us"
 title = "CHANGEBLOG by Alan Solidum"
 theme = "forty"
 
-[taxonomies]
-# Use singular rather than plural for default taxonomies
-tag = "tag"
-category = "category"
-
 enableGitInfo = true
 
 # Enter your tracking code to enable Google Analytics
