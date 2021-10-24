@@ -1,3 +1,4 @@
+{{ if not (.IsHome) }}
 <html>
 {{ "<!-- Header -->" | safeHTML }}
     {{ partial "header.html" . }}
@@ -63,3 +64,4 @@
         
     </body>
 </html>
+{{ end }}
