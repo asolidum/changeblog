@@ -5,7 +5,6 @@ theme = "forty"
 
 [taxonomies]
 # Use singular rather than plural for default taxonomies
-category = "category"
 
 enableGitInfo = true
 
