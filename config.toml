@@ -13,6 +13,11 @@ disqusShortname = ""
 
 enableEmoji = true
 
+[taxonomies]
+# Use singular rather than plural for default taxonomies
+tag = "tag"
+category = "category"
+
 # Following lines allow rendering of RAW HTML
 # eg. <img> tags
 [markup.goldmark.renderer]
