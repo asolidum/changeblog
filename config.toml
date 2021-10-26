@@ -65,6 +65,10 @@ unsafe= true
       name = "About"
       url = "about"
 
+    [[params.navigation.links]]
+      name = "Projects"
+      url = "category/projects"
+
   # Banner section
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
