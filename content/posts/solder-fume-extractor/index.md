@@ -5,6 +5,7 @@ image: "../fan_cover.png"
 alt: "Fan cover with inlay for carbon filter"
 description: "I'm increasingly working with electronic circuits. Here's how I built a DIY solder fume extractor with just a fan, filter and filament"
 date: 2021-02-16T18:31:18-07:00
+category: [ "projects" ]
 draft: false
 ---
 Some of my latest projects require soldering electronic circuits that can emit noxious fumes during that process.  Excessive inhalation of these emissions is a common concern especially in poorly ventilated workspaces such as mine.  To remedy this issue, some people use solder fume extractors to capture the harmful smoke.

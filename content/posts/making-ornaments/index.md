@@ -5,6 +5,7 @@ image: "../snowflake_all.jpg"
 alt: "Holding 3D printed snowflake ornaments"
 description: "Want to add to your holiday ornament collection? Use Thingiverse and your 3D printer to add more options on your tree."
 date: 2019-12-23T20:28:57-07:00
+category: [ "projects" ]
 draft: false
 ---
 
