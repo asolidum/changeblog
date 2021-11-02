@@ -114,6 +114,12 @@ unsafe= true
       image = "snowflake_all.jpg"
       url = "posts/making-ornaments"
 
+    [[params.tiles.showcase]]
+      title = "Another fun build"
+      subtitle = "coming soon..."
+      image = ""
+      url = ""
+
     [params.blog]
     # All blogs defined in their own files. You can find example blogs
     # at 'exampleSite/content/blogs'. Copy the 'blogs' folder into the 'content' directory
