@@ -85,6 +85,12 @@ unsafe= true
     # Display your showcases here.
     
     [[params.tiles.showcase]]
+      title = "Daily Fla.sh (inspired by 1 Second Everyday)"
+      subtitle = "scripted with Bash and FFMpeg"
+      image = "iterm_bash_ffmpeg_dailyflash_view.jpg"
+      url = "posts/daily-flash"
+
+    [[params.tiles.showcase]]
       title = "Validating Media Uploads"
       subtitle = "with the Google Photos Java API client"
       image = "google_photos.jpg"
