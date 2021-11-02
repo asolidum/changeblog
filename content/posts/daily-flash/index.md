@@ -10,19 +10,18 @@ tag: ["bash", "ffmpeg", "photography", "journal" ]
 draft: false
 ---
 # What is Daily Fla.sh?
-Daily Fla.sh is a video montage command-line tool heavily inspired by the [1 Second Everyday][one_second.link] app. It's primarily powered with [FFMpeg][ffmpeg.link] and scripted in bash shell.
+[Daily Fla.sh][flash.link] is a video montage command-line tool heavily inspired by the [1 Second Everyday][one_second.link] app. It's primarily powered with [FFMpeg][ffmpeg.link] and scripted in bash shell.
 
 ## So what is 1 Second Everyday?
 I first learned about [1 Second Everyday][one_second.link] after watching [Cesar Kuriyama's Ted talk][ted.link]. If you've never heard of One Second Everyday, it's basically the concept of creating daily one-second video compilations. Kuriyama hoped that this process would help him remember his daily experiences. He would further develop this idea into a [Kickstarter campaign][kick.link] to help fund app development.
 
-[ffmpeg.link]: https://www.ffmpeg.org
+[flash.link]: https://gitlab.com/a1s0/dailyfla.sh
 [one_second.link]: https://en.wikipedia.org/wiki/1_Second_Everyday
 [ted.link]: https://www.ted.com/talks/cesar_kuriyama_one_second_every_day
 [kick.link]: https://www.kickstarter.com/projects/cesarkuriyama/1-second-everyday-app
 
 ## "There's an app for that..."
-
-When the app ([iOS][ios_app.link]/[Android][and_app.link]) was released, I enjoyed using it, but I needed a little more flexibility and wanted to see if I could simplify the process with a command-line tool and get away from using a GUI.
+When the app ([iOS][ios_app.link]/[Android][and_app.link]) was released, I enjoyed using it, but I needed a little more flexibility and wanted to see if I could simplify the process with a command-line tool removing the need for a GUI.
 
 [ios_app.link]: https://itunes.apple.com/us/app/1-second-everyday/id587823548
 [and_app.link]: https://play.google.com/store/apps/details?id=co.onese.android
@@ -35,7 +34,7 @@ Some video feature requirements for our tool are:
 3) Adding titles/text
 4) Concatenating videos into one final video
 
-I've used a command-line tool called `FFMpeg`, a comprehensive video tool, which should serve our needs. I'm pretty sure it can accomplish requirements 1 and 2. After further research, I learned that it fulfills all our remaining requirements as well. It looks like we have everything we need! :relieved:
+I've used a command-line tool called [`FFMpeg`][ffmpeg.link], a comprehensive video utility, which should serve our needs. I'm pretty sure it can accomplish requirements 1 and 2. After further research, I learned that it fulfills all our remaining requirements as well. It looks like we have everything we need! :relieved:
 
 So my solution should be a relatively simple bash script. :sweat_smile:
 
@@ -47,7 +46,7 @@ The high-level program flow is:
 3) Transcoding those extracted videos into a standard format and adding text indicating whichever daily video we are viewing (currently set to display `Day DD`)
 4) Concatenating the title screen video and extracted videos into one final video
 
-I also wanted to allow for easy customization. We included the following adjustable parameters.
+I also wanted to allow for easy customization. We included the following [adjustable parameters][adjustparam.link].
 
 ```bash
 ## Duration of each daily video (in seconds)
@@ -64,9 +63,12 @@ daily_text_settings="drawtext=fontfile=${font_settings}:fontsize=${font_size}:bo
 ```
 We've set our daily text font size to 128 and hardcoded the title text twice as much.  The title text will also appear centered on the screen, while the daily text will be present on the bottom right.
 
-## Pair Programming Anyone?
-The biggest function in the script is `get_num_days_in_month()`.  This function is responsible for determining how many days are in the specified month and year. I recently was approved for [GitHub Copilot][copilot.link], and this was my first program to benefit from having an "AI pair programmer". That function (with some additions from me) is a result of using that technology.  Stay tuned for a future post where I'll go into more details about my experience.
+[adjustparam.link]: https://gitlab.com/a1s0/dailyfla.sh/-/blob/master/dailyfla.sh#L3
 
+## Pair Programming Anyone?
+The biggest function in the script is [`get_num_days_in_month()`][func.link].  This function is responsible for determining how many days are in the specified month and year. I recently was approved for [GitHub Copilot][copilot.link], and this was my first program to benefit from having an "AI pair programmer". That function (with some additions from me) is a result of using that technology.  Stay tuned for a future post where I'll go into more details about my experience.
+
+[func.link]: https://gitlab.com/a1s0/dailyfla.sh/-/blob/master/dailyfla.sh#L83
 [copilot.link]: https://copilot.github.com
 
 ## Unexpected output
@@ -82,9 +84,11 @@ My solution was to split the command into cutting and transcoding the video to o
 ffmpeg -i "${filename[$i]}" -ss ${timestamp[$i]} -t ${duration} ${transcode_settings} ./tmp/tmp_${outfile}
 ffmpeg -i ./tmp/tmp_${outfile} -vf "${daily_text_settings}:text='Day ${day_str}'" ./tmp/${outfile}
 ```
-This idea appears to have fixed the bug but at the expense of degraded performance since we have to invoke `FFMpeg` twice as often now.
+This idea appears to have fixed the bug but at the expense of degraded performance since we have to invoke [`FFMpeg`][ffmpeg.link] twice as often now.
 
 # Fla.sh Forward
-Some enhancements would be inputting the filenames and timestamps through file I/O redirection or as a separate input file keeping the data and code separate.  Another optimization related to the diverse video resolution performance issue is customizing the daily text font size based on the particular input video resolution to free us from calling `FFMpeg` twice.
+Some enhancements would be inputting the filenames and timestamps through file I/O redirection or as a separate input file keeping the data and code separate.  Another optimization related to the diverse video resolution performance issue is customizing the daily text font size based on the particular input video resolution to free us from calling [`FFMpeg`][ffmpeg.link] twice.
 
 Check out the git repo [here](https://gitlab.com/a1s0/dailyfla.sh)
+
+[ffmpeg.link]: https://www.ffmpeg.org
