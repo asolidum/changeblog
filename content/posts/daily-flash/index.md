@@ -42,9 +42,9 @@ So my solution should be a relatively simple bash script. :sweat_smile:
 # Scripting the flow
 
 The high-level program flow is:
-1) Creating a title screen (Currently set to display `Month Year`)
+1) Creating a title screen (currently set to display `Month Year`)
 2) Iterating over a list of video files and extracting `x` seconds from specified starting points
-3) Transcoding those extracted videos into a standard format and adding text specifying whichever daily video we are viewing (Currently set to display `Day DD`)
+3) Transcoding those extracted videos into a standard format and adding text indicating whichever daily video we are viewing (currently set to display `Day DD`)
 4) Concatenating the title screen video and extracted videos into one final video
 
 I also wanted to allow for easy customization. We included the following adjustable parameters.
@@ -70,14 +70,14 @@ The biggest function in the script is `get_num_days_in_month()`.  This function 
 [copilot.link]: https://copilot.github.com
 
 ## Unexpected output
-My early test runs generated output video as expected except for occasional inconsistent daily text output (See following images).
+My early test runs generated output video as expected except for occasional inconsistent daily text output.  You can see that Day 10's text is slightly larger than the other days in the images below.
 {{< single_imgrow images="day_09.png,day_10.png,day_11.png" >}}
 I wasn't sure of the root cause until I realized the input videos (sometimes originating from different video sources) had incongruous video resolutions.  Our original script included the following line to cut `${duration}`-sized video from the file, transcode it into our specified output format, and finally add the "`Day DD`" daily text.
 
 ```bash
  ffmpeg -i "${filename[$i]}" -ss ${timestamp[$i]} -t ${duration} -vf "${daily_text_settings}:text='Day ${day_str}'" ${transcode_settings} ./tmp/${outfile} &> /dev/null
 ```
-My solution was to first cut and transcode the video to our desired output resolution and then add the daily titles to those video files that now possess the same resolution.
+My solution was to split the command into cutting and transcoding the video to our desired output resolution and then adding the daily titles to those video files that now possess the same resolution.
 ```bash
 ffmpeg -i "${filename[$i]}" -ss ${timestamp[$i]} -t ${duration} ${transcode_settings} ./tmp/tmp_${outfile}
 ffmpeg -i ./tmp/tmp_${outfile} -vf "${daily_text_settings}:text='Day ${day_str}'" ./tmp/${outfile}
