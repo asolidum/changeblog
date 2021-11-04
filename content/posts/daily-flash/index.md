@@ -1,16 +1,16 @@
 ---
 title: "Daily Fla.sh (inspired by 1 Second Everyday)"
-subtitle: "scripted with Bash and FFMpeg"
+subtitle: "scripted with Bash and FFmpeg"
 image: "../iterm_bash_ffmpeg_dailyflash_view.jpg"
 alt: "Iterm bash shell with daily flash command line"
-description: "Daily Fla.sh is a video montage command-line tool heavily inspired by the 1 Second Everyday app. It's primarily powered with FFMpeg and scripted in bash shell"
+description: "Daily Fla.sh is a video montage command-line tool heavily inspired by the 1 Second Everyday app. It's primarily powered with FFmpeg and scripted in bash shell"
 date: 2021-10-29T20:28:57-07:00
 category: [ "projects" ]
 tag: ["bash", "ffmpeg", "photography", "journal" ]
 draft: false
 ---
 # What is Daily Fla.sh?
-[Daily Fla.sh][flash.link] is a video montage command-line tool heavily inspired by the [1 Second Everyday][one_second.link] app. It's primarily powered with [FFMpeg][ffmpeg.link] and scripted in bash shell.
+[Daily Fla.sh][flash.link] is a video montage command-line tool heavily inspired by the [1 Second Everyday][one_second.link] app. It's primarily powered with [FFmpeg][ffmpeg.link] and scripted in bash shell.
 
 ## So what is 1 Second Everyday?
 I first learned about [1 Second Everyday][one_second.link] after watching [Cesar Kuriyama's Ted talk][ted.link]. If you've never heard of One Second Everyday, it's basically the concept of creating daily one-second video compilations. Kuriyama hoped that this process would help him remember his daily experiences. He would further develop this idea into a [Kickstarter campaign][kick.link] to help fund app development.
@@ -34,7 +34,7 @@ Some video feature requirements for our tool are:
 3) Adding titles/text
 4) Concatenating videos into one final video
 
-I've used a command-line tool called [`FFMpeg`][ffmpeg.link], a comprehensive video utility, which should serve our needs. I'm pretty sure it can accomplish requirements 1 and 2. After further research, I learned that it fulfills all our remaining requirements as well. It looks like we have everything we need! :relieved:
+I've used a command-line tool called [`FFmpeg`][ffmpeg.link], a comprehensive video utility, which should serve our needs. I'm pretty sure it can accomplish requirements 1 and 2. After further research, I learned that it fulfills all our remaining requirements as well. It looks like we have everything we need! :relieved:
 
 So my solution should be a relatively simple bash script. :sweat_smile:
 
@@ -85,7 +85,7 @@ My solution was to split the command into cutting and transcoding the video to o
 ffmpeg -i "${filename[$i]}" -ss ${timestamp[$i]} -t ${duration} ${transcode_settings} ./tmp/tmp_${outfile}
 ffmpeg -i ./tmp/tmp_${outfile} -vf "${daily_text_settings}:text='Day ${day_str}'" ./tmp/${outfile}
 ```
-This idea appears to have fixed the bug but at the expense of degraded performance since we have to invoke [`FFMpeg`][ffmpeg.link] twice as often now.
+This idea appears to have fixed the bug but at the expense of degraded performance since we have to invoke [`FFmpeg`][ffmpeg.link] twice as often now.
 
 ### Incorrect Final Video
 Early results of the final output video yielded some missing days and out-of-sync audio.  While we made sure our video resolutions were consistent, we should have also included the frame rate.  Another thing we should have ensured was audio consistency.  Our included laptop screen recordings were missing audio tracks, so we added the following function to fix this issue.
