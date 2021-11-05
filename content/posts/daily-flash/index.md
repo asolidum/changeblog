@@ -80,7 +80,7 @@ I wasn't sure of the root cause until I realized the input videos (sometimes ori
 ```bash
  ffmpeg -i "${filename[$i]}" -ss ${timestamp[$i]} -t ${duration} -vf "${daily_text_settings}:text='Day ${day_str}'" ${transcode_settings} ./tmp/${outfile} &> /dev/null
 ```
-My solution was to split the command into cutting and transcoding the video to our desired output resolution and then adding the daily titles to those video files that now possess the same resolution.
+My solution was to split the command into cutting and transcoding the video to our desired output resolution and then adding the daily titles to those video files that now possess identical screen resolutions.
 ```bash
 ffmpeg -i "${filename[$i]}" -ss ${timestamp[$i]} -t ${duration} ${transcode_settings} ./tmp/tmp_${outfile}
 ffmpeg -i ./tmp/tmp_${outfile} -vf "${daily_text_settings}:text='Day ${day_str}'" ./tmp/${outfile}
@@ -103,7 +103,7 @@ function add_missing_audio_stream() {
 ```
 
 # Fla.sh Forward
-Some enhancements would be inputting the filenames and timestamps through file I/O redirection or as a separate input file keeping the data and code separate.  Another optimization related to the diverse video resolution performance issue is customizing the daily text font size based on the particular input video resolution to free us from calling [`FFMpeg`][ffmpeg.link] twice.
+Some enhancements would be inputting the filenames and timestamps through file I/O redirection or as an input file keeping the data and code separately.  Another optimization related to the diverse video resolution performance issue is customizing the daily text font size based on the particular input video resolution to free us from calling [`FFmpeg`][ffmpeg.link] twice.
 
 We could also look into parallelizing the creation of each of the daily second videos.  Those are independent operations until we need to concatenate them into the final video.
 
