@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.1.7] - 2021-12-02
+### Added
+- Author name added to meta description
+- Pinterest and Thingiverse  social link added to footer
+- Created new post for Daily Fla.sh (1 Second Everyday inspired) tool
+- List view for categories and taxonomies added 
+- Projects link added to collapsible menu
+- Create partial for displaying post information
+
 ## [0.1.6] - 2021-10-15
 ### Added
 - AngelList and Bitbucket social link added to footer
