@@ -1,7 +1,7 @@
 ---
 title: "Validating Media Uploads"
 subtitle: "with the Google Photos Java API client" 
-image: "../google_photos.jpg"
+image: "../google_photos.webp"
 alt: "Google Photos albums page view"
 description: "Verito GP (Google Photos) is a validation tool to ensure that all the files in a specific folder successfully upload to your GP account"
 date: 2021-09-15T09:31:18-07:00
