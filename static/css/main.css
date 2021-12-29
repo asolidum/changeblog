@@ -2949,7 +2949,13 @@
 
 	.spotlights {
 		border-top: 0 !important;
+		background-color: #000000;
 	}
+
+		.single_spotlight {
+			margin-top: .33em;
+			margin-bottom: .33em;
+		}
 
 		.spotlights + * {
 			border-top: 0 !important;

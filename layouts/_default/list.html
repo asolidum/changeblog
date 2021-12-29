@@ -30,7 +30,7 @@
 
                 <section id="two" class="spotlights">
                     {{ range .Pages }}
-                    <section>
+                    <section class="single_spotlight">
                         <a href="{{ .Permalink }}" class="image">
 							<img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="{{ .Params.alt }}" data-position="center center" />
 						</a>
