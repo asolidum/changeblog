@@ -212,7 +212,7 @@ unsafe= true
       label = "GitLab"
 
     [[params.footer.quicklinks]]
-      text = "3D Printer: "
+      text = ""
       url= "https://www.thingiverse.com/a1s0"
       alt = "Thingiverse"
 
@@ -222,6 +222,6 @@ unsafe= true
       alt = "Kickstarter"
 
     [[params.footer.quicklinks]]
-      text = "Maker: "
+      text = ""
       url = "https://www.instructables.com/member/a1s0"
       alt = "Instructables"
