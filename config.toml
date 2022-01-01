@@ -217,6 +217,11 @@ unsafe= true
       alt = "Thingiverse"
 
     [[params.footer.quicklinks]]
+      text = ""
+      url = "https://www.kickstarter.com/profile/also"
+      alt = "Kickstarter"
+
+    [[params.footer.quicklinks]]
       text = "Maker: "
       url = "https://www.instructables.com/member/a1s0"
       alt = "Instructables"
