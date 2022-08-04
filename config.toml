@@ -218,8 +218,8 @@ unsafe= true
 
     [[params.footer.quicklinks]]
       text = ""
-      url = "https://www.kickstarter.com/profile/also"
-      alt = "Kickstarter"
+      url = "https://www.printables.com/social/281662-also/about"
+      alt = "Printables"
 
     [[params.footer.quicklinks]]
       text = ""
