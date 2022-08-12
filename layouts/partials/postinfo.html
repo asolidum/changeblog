@@ -13,7 +13,7 @@
         - if only author set
             Posted by Author
     -->
-    <p id="postinfo">Posted 
+    <span id="postinfo">Posted 
         {{ with $date }}
             on {{ $date.Format "Jan 2, 2006" }}
         {{ end }}
@@ -27,5 +27,9 @@
         {{ with $author }}
             by {{ $author }}
         {{ end }}
-    </p>
+        <br>Related tag(s): 
+        {{ range .Params.tag }}
+            <a href="/tag/{{ . | urlize }}">{{ . }}</a> 
+        {{ end }}
+    </span>
 {{ end }}
