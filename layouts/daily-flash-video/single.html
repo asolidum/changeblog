@@ -19,7 +19,7 @@
                                 <h1>{{ .Title}}</h1>
                             </header>
                             {{ if .Params.Description }}
-                                <p>{{ .Params.Description }}</p>
+                                <blockquote>{{ .Params.Description }}</blockquote>
                             {{ end}}
                             <span class="image main"><iframe src="{{ .Params.Video }}" allow="autoplay" allowfullscreen style="overflow:hidden;height:100vh;width:100%;"></iframe></span>
                             {{ partial "postinfo.html" . }}
