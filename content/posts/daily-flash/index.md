@@ -107,6 +107,8 @@ Some enhancements would be inputting the filenames and timestamps through file I
 
 We could also look into parallelizing the creation of each of the daily second videos.  Those are independent operations until we need to concatenate them into the final video.
 
-Check out the git repo [here](https://gitlab.com/a1s0/dailyfla.sh)
+#### Related Links ####
+* [the git repo](https://gitlab.com/a1s0/dailyfla.sh)
+* [my personal dailyfla.sh videos](../../tag/daily-flash-videos)
 
 [ffmpeg.link]: https://www.ffmpeg.org
