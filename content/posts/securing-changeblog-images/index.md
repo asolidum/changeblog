@@ -6,6 +6,7 @@ alt: "Exiftool in action"
 description: "As I add more content to this site, I want to ensure the images are free of EXIF geolocation data. Why not automate this process with git hooks?"
 date: 2021-05-25T14:22:18-07:00
 category: [ "projects" ]
+tag: ["exif", "bash", "git", "git hook" ]
 draft: false
 ---
 ## The issue
