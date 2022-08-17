@@ -8,7 +8,9 @@
 	<title>{{ partial "title.html" . }}</title>
 	{{ "<!-- Stylesheets -->" | safeHTML }}
 	<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="{{ "css/main.css" | absURL}}"/>
+	<link rel="preload" href="{{ "css/main.css" | absURL }}" as="style" onload="this.rel='stylesheet'">
+	<link rel="stylesheet" href="{{ "css/main.css" | absURL }}" media="print" onload="this.media='all'">
+	<noscript><link rel="stylesheet" href="{{ "css/main.css" | absURL }}"></noscript>
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "css/ie9.css" }}"/><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "css/ie8.css" }}"/><![endif]-->
 
