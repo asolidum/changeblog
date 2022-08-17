@@ -8,9 +8,7 @@
 	<title>{{ partial "title.html" . }}</title>
 	{{ "<!-- Stylesheets -->" | safeHTML }}
 	<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="preload" href="{{ "css/main.css" | absURL }}" as="style" onload="this.rel='stylesheet'">
-	<link rel="stylesheet" href="{{ "css/main.css" | absURL }}" media="print" onload="this.media='all'">
-	<noscript><link rel="stylesheet" href="{{ "css/main.css" | absURL }}"></noscript>
+	{{ partial "async_css.html" (dict "context" . "cssFile" "main.css") }}
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "css/ie9.css" }}"/><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "css/ie8.css" }}"/><![endif]-->
 
@@ -34,7 +32,7 @@
 	{{ end }}
 
 	{{ "<!-- Custom Fonts -->" | safeHTML }}
-	<link href="{{ "css/font-awesome.min.css" | absURL }}" rel="stylesheet" type="text/css">
+	{{ partial "async_css.html" (dict "context" . "cssFile" "font-awesome.min.css") }}
 
 	{{ with .Site.Params.favicon }}
 	<link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">
