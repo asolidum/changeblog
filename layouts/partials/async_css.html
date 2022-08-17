@@ -1,0 +1,4 @@
+{{ $css_file := (printf "css/%s" .cssFile ) | absURL }}
+<link rel="preload" href="{{ $css_file }}" as="style" onload="this.rel='stylesheet'">
+<link rel="stylesheet" href="{{ $css_file }}" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="{{ $css_file }}"></noscript>
