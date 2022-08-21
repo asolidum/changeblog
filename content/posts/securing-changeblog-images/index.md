@@ -22,7 +22,7 @@ exiftool -geotag= <filename>
 This manual step could become tedious/easily overlooked, especially if it must be applied to every image we want to be geotag free. Why not automate this process with git hooks?
 
 ## A possible solution
-Unfortunately, my research yielded no concrete examples/code of developers using git hooks intent on removing geotag data from images.  Inspired by this [example](example.link) meant for removing trailing whitespace, I came up with the following `pre-commit` git hook.
+Unfortunately, my research yielded no concrete examples/code of developers using git hooks intent on removing geotag data from images.  Inspired by this [example][example.link] meant for removing trailing whitespace, I came up with the following `pre-commit` git hook.
 
 ```bash
 #!/bin/bash
