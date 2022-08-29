@@ -17,6 +17,9 @@
                         <div class="inner">
                             <header class="major">
                                 <h1>{{ .Title}}</h1>
+                                {{ if .Params.Subtitle }}
+                                    <p>{{ .Params.Subtitle }}</p>
+                                {{ end}}
                             </header>
                             {{ if .Params.Description }}
                                 <blockquote>{{ .Params.Description }}</blockquote>
