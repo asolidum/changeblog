@@ -168,7 +168,7 @@ unsafe= true
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "2022 AlanSolidum.com"
 
     # Uses font awesome icons
     [[params.footer.social]]
