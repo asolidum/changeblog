@@ -1,6 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.1.8] - 2022-09-02
+### Added
+- Add daily flash video posts for May, Jun, Jul, Aug
+- Add related tags links for posts
+- Add photos category
+
+### Changed
+- Update .jpg images to .webp
+- Update footer links
+- Change css files to load asynchronously
+
 ## [0.1.7] - 2021-12-02
 ### Added
 - Author name added to meta description
