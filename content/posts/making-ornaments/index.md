@@ -18,7 +18,7 @@ Today, I visited one of my favorite 3D printing websites, [Thingiverse](https://
 
 Using Thingiverse's built-in customizer, you can generate unique ornaments with a random seed value.  Here are the ones we created.
 
-{{< single_imgrow images="snowflake_00050118.jpg,snowflake_00023526.jpg,snowflake_32353783.jpg" >}} 
+{{< single_imgrow images="snowflake_00050118.webp,snowflake_00023526.webp,snowflake_32353783.webp" >}} 
 
 [Thingiverse's customizer](https://www.thingiverse.com/customizer) is essentially a web UI for SCAD files.  Apparently, [OpenSCAD](https://openscad.org/) is an open-source 3D CAD modeling application that utilizes a scripting language. Hmmm... 3D printing and programming. It looks like I'm gonna have to learn SCAD sometime soon.
 
