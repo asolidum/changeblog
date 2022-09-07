@@ -182,14 +182,14 @@ unsafe= true
       label = "Instagram"
     
     [[params.footer.social]]
+      icon = "fa-youtube"
+      url= "https://www.youtube.com/c/AlanSolidum"
+      label = "YouTube"
+
+    [[params.footer.social]]
       icon = "fa-twitter"
       url= "https://twitter.com/asolidum"
       label = "Twitter"
-
-    [[params.footer.social]]
-      icon = "fa-pinterest"
-      url= "https://www.pinterest.com/asolidum"
-      label = "Pinterest"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
