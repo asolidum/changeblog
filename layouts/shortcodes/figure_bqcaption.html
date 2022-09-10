@@ -1,6 +1,13 @@
 {{ $src := (.Get "src") }}
 {{ $caption := (.Get "caption") }}
-<figure>
-    <img src="{{ $src }}">
-    <figcaption><blockquote>{{ $caption }}</blockquote></figcaption>
-</figure>
+{{ $colsize := (.Get "colsize") }}
+{{ if eq $colsize "" }}
+<div class="4u">
+{{ else }}
+<div class="{{ $colsize }}u">
+{{ end }}
+    <figure>
+        <img src="{{ $src }}">
+        <figcaption><blockquote>{{ $caption }}</blockquote></figcaption>
+    </figure>
+</div>
