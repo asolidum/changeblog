@@ -1,10 +1,10 @@
-# My Blog
+# ChangeBlog
 
-This repository is for my blog for documenting things that I find interesting
+My blog for documenting interesting things and personal projects.
 
-Back in the day, the blog used to be [Wordpress](http://wordpress.com/) running on [Dreamhost](http://dreamhost.com/) servers. I eventually moved to [Jekyll](https://github.com/mojombo/jekyll) running on [Github](http://github.com/) servers with images served by [Flickr](http://flickr.com/).
+The blog  was previously a [Wordpress](http://wordpress.com/) site running on [Dreamhost](http://dreamhost.com/) servers. I eventually moved to [Jekyll](https://github.com/mojombo/jekyll) hosted on [Github](http://github.com/) servers with images served by [Flickr](http://flickr.com/).
 
-By moving away from Wordpress, this site runs noticably faster and is completely free. I would highly recommend this solution for any developer interested in putting up a blog.
+Moving away from Wordpress gave the site a noticable performance boost at no cost. I highly recommend this solution to any developer interested in running a blog.
 
 ## Theme Installation
 
