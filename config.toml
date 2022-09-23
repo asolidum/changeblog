@@ -202,9 +202,9 @@ unsafe= true
       label = "AngelList"
 
     [[params.footer.social]]
-      icon = "fa-bitbucket"
-      url= "https://bitbucket.org/asolidum"
-      label = "BitBucket"
+      icon = "fa-coffee"
+      url= "https://ko-fi.com/also_"
+      label = "Ko-fi Donation"
 
     [[params.footer.social]]
       icon = "fa-github"
