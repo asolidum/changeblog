@@ -31,5 +31,6 @@
         {{ range .Params.tag }}
             <a href="/tag/{{ . | urlize }}">{{ . }}</a> 
         {{ end }}
+        {{ partial "donate.html" }}       
     </div>
 {{ end }}
