@@ -58,7 +58,8 @@ If you haven't invested heavily in the Harbor Freight/Stanley storage bins like 
 * [Alex Chappel's Assortment System][alexassortment.link]
 * [Zack Freedman's Gridfinity][zackgridfinity.link]
 
-The latest SCAD file is available at the following git repos: [GitHub][github.link]/[GitLab][gitlab.link]
+The latest SCAD file is available at the following git repos: [GitHub][github.link]/[GitLab][gitlab.link]  
+Pre-generated STL files can be downloaded at: [Printables][printables.link]/[Thingiverse][thingiverse.link]
 
 [harborfreight.link]: https://www.harborfreight.com/20-bin-medium-portable-parts-storage-case-93928.html
 [stanley.link]: https://www.stanleytools.com/product/014725r/professional-organizer
@@ -67,3 +68,5 @@ The latest SCAD file is available at the following git repos: [GitHub][github.li
 [gitlab.link]: https://gitlab.com/a1s0/storage-case-base-template
 [alexassortment.link]: https://www.alch.shop/shop/assortment
 [zackgridfinity.link]: https://www.youtube.com/watch?v=ra_9zU-mnl8
+[printables.link]: https://www.printables.com/model/280725-storage-case-base-template-scbt
+[thingiverse.link]: https://www.thingiverse.com/thing:5527247
