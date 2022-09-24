@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.1.9] - 2022-09-23
+### Added
+- Add Storage Case Base Template (SCBT) post
+- Add daily flash video posts for Feb, Mar, Apr
+- Add ko-fi donation links
+- Add YouTube social link to footer
+
+### Changed
+- Update README
+
 ## [0.1.8] - 2022-09-02
 ### Added
 - Add daily flash video posts for May, Jun, Jul, Aug
