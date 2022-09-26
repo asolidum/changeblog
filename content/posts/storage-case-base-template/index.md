@@ -11,12 +11,13 @@ draft: false
 ---
 I've been attempting to clean up my overflowing workspace, and the easiest quick fix is probably getting rid of stuff. Since I'm a recovering hoarder :wink:, providing better organization is my preferred solution.
 
-Having invested heavily in [Harbor Freight portable storage cases][harborfreight.link] (similar to the [Stanley professional organizer][stanley.link]), I use this [customizable SCAD model][scadmodel.link] to generate some rather specialized storage bins to optimize the space in those containers (8 storage bin spaces reduced to 2).
-
 <div class="row">
-    {{< figure_bqcaption src="original_bins.webp" caption="Harbor Freight original bins with tools/parts" colsize=6 >}}
-    {{< figure_bqcaption src="specialized_bins.webp" caption="SCAD specialized bins with tools/parts" colsize=6 >}}
+    {{< figure_bqcaption src="standard_storage.webp" caption="Harbor Freight original bins in case" >}}
+    {{< figure_bqcaption src="specialized_bins.webp" caption="SCAD specialized bins with tools/parts" >}}
+    {{< figure_bqcaption src="reduced_storage.webp" caption="SCAD specialized bins in case" >}}    
 </div>
+
+Having invested heavily in [Harbor Freight portable storage cases][harborfreight.link] (similar to the [Stanley professional organizer][stanley.link]), I use this [customizable SCAD model][scadmodel.link] to generate some rather specialized storage bins to optimize the space in those containers (8 storage bin spaces reduced to 3).
 
 ## Reusing the extra storage bins
 
