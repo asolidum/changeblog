@@ -21,9 +21,9 @@ Having invested heavily in [Harbor Freight portable storage cases][harborfreight
 ## Reusing the extra storage bins
 
 <div class="row">
-    {{< figure_bqcaption src="storage_bin_feet.webp" caption="Bottom view of storage bin" colsize=4 >}}
-    {{< figure_bqcaption src="scbt_4x4.webp" caption="4x4 SCBT" colsize=4 >}}
-    {{< figure_bqcaption src="loaded_scbt.webp" caption="SCBT with bins" colsize=4 >}}
+    {{< figure_bqcaption src="storage_bin_feet.webp" caption="Bottom view of storage bin" >}}
+    {{< figure_bqcaption src="scbt_4x4.webp" caption="4x4 SCBT" >}}
+    {{< figure_bqcaption src="loaded_scbt.webp" caption="SCBT with bins" >}}
 </div>
 Now I have extra storage bins from these original Harbor Freight storage cases and can repurpose them to organize some of my existing drawers. As you can see from the Harbor Freight storage bins, they have feet that align with the storage case bottom depressions to prevent them from sliding around. I reproduced the bottom pattern of the original container to create the storage case base template (SCBT).
 
