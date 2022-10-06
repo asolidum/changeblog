@@ -1,4 +1,4 @@
-{{ $description := index .Params "description" | string }}
+{{ $description := index .Params "summary" | string }}
 {{ if eq $description "" }}
     {{ $description = .Site.Params.description }}
 {{ else }}
