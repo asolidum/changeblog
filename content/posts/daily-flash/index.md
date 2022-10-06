@@ -3,7 +3,7 @@ title: "Daily Fla.sh (inspired by 1 Second Everyday)"
 subtitle: "scripted with Bash and FFmpeg"
 image: "../iterm_bash_ffmpeg_dailyflash_view.webp"
 alt: "Iterm bash shell with daily flash command line"
-description: "Daily Fla.sh is a video montage command-line tool heavily inspired by the 1 Second Everyday app. It's primarily powered with FFmpeg and scripted in bash shell"
+summary: "Daily Fla.sh is a video montage command-line bash tool inspired by the 1 Second Everyday app. It's powered with FFmpeg"
 date: 2021-10-29T20:28:57-07:00
 category: [ "projects" ]
 tag: ["bash", "ffmpeg", "photography", "journal" ]

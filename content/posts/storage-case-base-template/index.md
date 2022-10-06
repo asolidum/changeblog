@@ -3,7 +3,7 @@ title: "Storage Case Base Template"
 subtitle: "A storage solution using SCAD"
 image: "../SCBT_in_storage_bin.webp"
 alt: "Harbor Freight/Stanley storage bin case with 3d printed template"
-description: "I wanted to organize my drawer space and reuse my excess Harbor Freight/Stanley storage bins, so I created this SCAD model called the storage case base template (SCBT)"
+summary: "I wanted to organize my drawer space and reuse my excess Harbor Freight/Stanley storage bins, so I created this SCAD model"
 date: 2022-08-10T12:31:18-07:00
 category: [ "projects" ]
 tag: ["3d printing", "openscad", "organization" ]
