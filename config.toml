@@ -92,7 +92,7 @@ unsafe= true
     [[params.tiles.showcase]]
       title = "Storage Case Base Template"
       subtitle = "A storage solution using SCAD"
-      image = "SCBT_in_storage_bin.webp"
+      image = "scbt_banner.webp"
       url = "posts/storage-case-base-template"
 
     [[params.tiles.showcase]]
