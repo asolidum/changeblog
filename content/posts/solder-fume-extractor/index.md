@@ -3,7 +3,7 @@ title: "DIY Solder Fume Extractor"
 subtitle: "built with a fan, filter and filament" 
 image: "../fan_cover.png"
 alt: "Fan cover with inlay for carbon filter"
-summary: "I'm increasingly working with electronic circuits. Here's how I built a DIY solder fume extractor with just a fan, filter and filament"
+summary: "I am increasingly working with electronic circuits. Here is how I built a DIY solder fume extractor with just a fan, filter and filament"
 date: 2021-02-16T18:31:18-07:00
 category: [ "projects" ]
 tag: ["3d printing", "solder", "openscad", "thingiverse" ]
