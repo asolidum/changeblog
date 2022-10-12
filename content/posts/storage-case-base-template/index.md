@@ -47,10 +47,8 @@ The most relevant variables are `num_rows` and `num_cols` to adjust the number o
 ## Testing the Template
 
 Here are before and after photos of one of my drawers.
-<div class="row">
-    {{< figure_bqcaption src="drawer_before.webp" caption="Drawer organization without SCBT" colsize=6 >}}
-    {{< figure_bqcaption src="drawer_after.webp" caption="Drawer organization with SCBT" colsize=6 >}}
-</div>
+
+<img src="scbt_banner.webp" style="width:100%" alt="Before and after photos when using SCBT">
 
 ## Related Information
 
