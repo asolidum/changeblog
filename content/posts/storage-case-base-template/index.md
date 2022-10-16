@@ -17,10 +17,14 @@ I've been attempting to clean up my overflowing workspace, and the easiest quick
     {{< figure_bqcaption src="reduced_storage.webp" caption="SCAD specialized bins in case" >}}    
 </div>
 
-Having invested heavily in [Harbor Freight portable storage cases][harborfreight.link] (similar to the [Stanley professional organizer][stanley.link]), I use this [customizable SCAD model][scadmodel.link] to generate some rather specialized storage bins to optimize the space in those containers (8 storage bin spaces reduced to 3).
+Having invested heavily in [Harbor Freight portable storage cases][harborfreight.link] (similar to the [Stanley professional organizer][stanley.link]), I use this [customizable SCAD model][scadmodel.link] to generate some rather specialized storage bins to optimize the space in those containers (8 storage bin spaces reduced to 3).  An assortment of pre-generated storage bin STL files are available on both [Thingiverse][thingiverse_bins.link] and [Printables][printables_bins.link].
+
+
 [harborfreight.link]: https://www.harborfreight.com/20-bin-medium-portable-parts-storage-case-93928.html
 [stanley.link]: https://www.stanleytools.com/product/014725r/professional-organizer
 [scadmodel.link]: https://www.thingiverse.com/thing:2836113
+[thingiverse_bins.link]: https://www.thingiverse.com/search?q=harbor+freight+storage&page=1&type=things&sort=popular 
+[printables_bins.link]: https://www.printables.com/search/models?q=harbor%20freight%20storage
 
 ## Reusing the extra storage bins
 
