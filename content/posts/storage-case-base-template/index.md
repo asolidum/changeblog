@@ -73,4 +73,4 @@ This post was also featured on [Hackaday! ❤️ ✨ 😊][hackaday.link]
 [zackgridfinity.link]: https://www.youtube.com/watch?v=ra_9zU-mnl8
 [printables.link]: https://www.printables.com/model/280725-storage-case-base-template-scbt
 [thingiverse.link]: https://www.thingiverse.com/thing:5527247
-[hackaday.link]: (https://hackaday.com/2022/10/15/organizational-inspiration-from-the-discount-tool-company
+[hackaday.link]: https://hackaday.com/2022/10/15/organizational-inspiration-from-the-discount-tool-company
