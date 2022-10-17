@@ -64,7 +64,7 @@ If you haven't invested heavily in the Harbor Freight/Stanley storage bins like 
 * [Zack Freedman's Gridfinity][zackgridfinity.link]
 
 The latest SCAD file is available at the following git repos: [GitHub][github.link]/[GitLab][gitlab.link]  
-Pre-generated STL files can be downloaded at: [Printables][printables.link]/[Thingiverse][thingiverse.link]
+Pre-generated STL files can be downloaded at: [Printables][printables.link]/[Thingiverse][thingiverse.link]  
 This post was also featured on [Hackaday! ❤️ ✨ 😊][hackaday.link]
 
 [github.link]: https://gitlab.com/a1s0/storage-case-base-template
