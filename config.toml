@@ -91,7 +91,7 @@ unsafe= true
     
     [[params.tiles.showcase]]
       title = "Storage Case Base Template"
-      subtitle = "A storage solution using SCAD"
+      subtitle = "A SCAD storage solution featured on Hackaday"
       image = "scbt.gif"
       url = "posts/storage-case-base-template"
 
