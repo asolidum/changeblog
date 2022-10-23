@@ -21,8 +21,8 @@
                                     <p>{{ .Params.Subtitle }}</p>
                                 {{ end}}
                             </header>
-                            {{ if .Params.Description }}
-                                <blockquote>{{ .Params.Description }}</blockquote>
+                            {{ if .Params.Summary }}
+                                <blockquote>{{ .Params.Summary }}</blockquote>
                             {{ end}}
                             <span class="image main"><iframe src="{{ .Params.Video }}" allow="autoplay" allowfullscreen style="overflow:hidden;height:100vh;width:100%;"></iframe></span>
                             <p>This video was created with a <code>bash</code> shell script I developed called <a href="https://gitlab.com/a1s0/dailyfla.sh"><code>dailyfla.sh</code></a>.  To learn more about the technology behind producing daily flashes, check out my <a href="/posts/daily-flash/">post</a>.</p>
