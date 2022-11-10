@@ -1,6 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.1.10] - 2022-11-10
+### Added
+- Add daily flash video posts for 2021 (Oct, Nov, Dec) and 2022 (Jan, Sept, Oct)
+- Add RSS field for project link
+- Add new rss.xml layout so subtitle is included in title
+
+### Changed
+- Update Storage Case Base Template (SCBT) post
+- Replace description param with summary param
+- Update README
+
 ## [0.1.9] - 2022-09-23
 ### Added
 - Add Storage Case Base Template (SCBT) post
