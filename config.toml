@@ -183,7 +183,7 @@ unsafe= true
     
     [[params.footer.social]]
       icon = "fa-youtube"
-      url= "https://www.youtube.com/c/AlanSolidum"
+      url= "https://www.youtube.com/AlanSolidum"
       label = "YouTube"
 
     [[params.footer.social]]
