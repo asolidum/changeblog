@@ -100,16 +100,21 @@ Top Ten % - 54.25%
 ```python
 x = [11.78, 10.68, 7.4, 4.66, 4.11, 4.11, 3.56, 3.29, 2.47, 2.19, 100-54.25]
 labels = [ 'seattle', 'cat', 'f1', 'snow', 'computer', '3dprinter', 'netflix', 'knit', 'movie', 'food' , 'other' ]
-colors = plt.get_cmap('Blues')(np.linspace(0.2, 0.7, len(x)))
+colors = plt.get_cmap('Blues')(np.linspace(0.4, 0.9, len(x)))
 
 # plot
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(figsize=(7, 7))
 ax.set_title('2022 Tag Breakdown')
-ax.pie(x, colors=colors, labels=labels, wedgeprops={"linewidth": 1, "edgecolor": "white"}, frame=False)
-plt.tight_layout()
+patches, texts, pcts  = ax.pie(
+    x, colors=colors, labels=labels,
+    autopct='%.1f%%', pctdistance=.85,
+    labeldistance=1.1,
+    wedgeprops={"linewidth": .5, "edgecolor": "white"}, frame=False)
+plt.setp(pcts, color='white', fontweight=600)
 
 plt.show()
 ```
+
 ![Pie chart showing tag percentage breakdown](piechart.png)
 
 ## Conclusion
