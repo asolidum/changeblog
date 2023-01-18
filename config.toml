@@ -88,7 +88,12 @@ unsafe= true
   [params.tiles]
     enable = true
     # Display your showcases here.
-    
+    [[params.tiles.showcase]]
+      title = "Gaining Insight into 2022 Daily Flash videos"
+      subtitle = "using a Deepnote.com Python Notebook"
+      image = "daily_flash_mosaic.png"
+      url = "posts/daily-flash-2022-insight"
+
     [[params.tiles.showcase]]
       title = "Storage Case Base Template"
       subtitle = "A SCAD storage solution featured on Hackaday"
@@ -106,12 +111,6 @@ unsafe= true
       subtitle = "with the Google Photos Java API client"
       image = "google_photos.webp"
       url = "posts/validating-media-uploads"
-
-    [[params.tiles.showcase]]
-      title = "Securing Changeblog Images"
-      subtitle = "using git hooks"
-      image = "securing_changeblog.gif"
-      url = "posts/securing-changeblog-images"
 
     [[params.tiles.showcase]]
       title = "DIY Solder Fume Extractor"
