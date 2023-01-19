@@ -98,18 +98,20 @@ Top Ten % - 54.25%
 
 ## Display the data visually
 ```python
-x = [11.78, 10.68, 7.4, 4.66, 4.11, 4.11, 3.56, 3.29, 2.47, 2.19, 100-54.25]
-labels = [ 'seattle', 'cat', 'f1', 'snow', 'computer', '3dprinter', 'netflix', 'knit', 'movie', 'food' , 'other' ]
-colors = plt.get_cmap('Blues')(np.linspace(0.4, 0.9, len(x)))
+tags6_10 = 4.11+3.56+3.29+2.47+2.19
+other_tags = 100-54.25
+x = [11.78, 10.68, 7.4, 4.66, 4.11, tags6_10, other_tags]
+labels = [ 'seattle (#1)', 'cat (#2)', 'f1 (#3)', 'snow (#4)', 'computer (#5)', '3dprinter,\nnetflix,\nknit,\nmovie,\nfood\n(#6-10)', 'other tags' ]
+colors = plt.get_cmap('Paired')(np.linspace(0.1, 0.8, len(x)))
 
 # plot
 fig, ax = plt.subplots(figsize=(7, 7))
 ax.set_title('2022 Tag Breakdown')
 patches, texts, pcts  = ax.pie(
     x, colors=colors, labels=labels,
-    autopct='%.1f%%', pctdistance=.85,
+    autopct='%.1f%%', pctdistance=.83,
     labeldistance=1.1,
-    wedgeprops={"linewidth": .5, "edgecolor": "white"}, frame=False)
+    wedgeprops={"linewidth": 3, "edgecolor": "white"}, frame=False)
 plt.setp(pcts, color='white', fontweight=600)
 
 plt.show()
