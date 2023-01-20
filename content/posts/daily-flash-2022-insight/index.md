@@ -74,7 +74,8 @@ These primary tags will help determine how much my year was committed to engagin
 
 ```python
 top_ten_totals = sum(i[1] for i in top_ten_primary_tags)
-out = "Top Ten % - "+str(round((top_ten_totals/365)*100,2))+"%"
+top_ten_totals_pct = round((top_ten_totals/365)*100,2)
+out = "Top Ten % - "+str(top_ten_totals_pct)+"%"
 print(out)
 for i in range(len(top_ten_primary_tags)):
     pct = (top_ten_primary_tags[i][1]/365)*100
