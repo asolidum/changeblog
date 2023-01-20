@@ -100,7 +100,7 @@ Top Ten % - 54.25%
 ## Display the data visually
 ```python
 tags6_10 = 4.11+3.56+3.29+2.47+2.19
-other_tags = 100-54.25
+other_tags = 100-top_ten_totals_pct
 x = [11.78, 10.68, 7.4, 4.66, 4.11, tags6_10, other_tags]
 labels = [ 'seattle (#1)', 'cat (#2)', 'f1 (#3)', 'snow (#4)', 'computer (#5)', '3dprinter,\nnetflix,\nknit,\nmovie,\nfood\n(#6-10)', 'other tags' ]
 colors = plt.get_cmap('Paired')(np.linspace(0.1, 0.8, len(x)))
