@@ -77,9 +77,11 @@ top_ten_totals = sum(i[1] for i in top_ten_primary_tags)
 top_ten_totals_pct = round((top_ten_totals/365)*100,2)
 out = "Top Ten % - "+str(top_ten_totals_pct)+"%"
 print(out)
+
+tag_pct = [ 0.0 ] * 10
 for i in range(len(top_ten_primary_tags)):
-    pct = (top_ten_primary_tags[i][1]/365)*100
-    out = str(i+1)+'. '+top_ten_primary_tags[i][0]+' - '+str(round(pct,2))+'%'
+    tag_pct[i] = (top_ten_primary_tags[i][1]/365)*100
+    out = str(i+1)+'. '+top_ten_primary_tags[i][0]+' - '+str(round(tag_pct[i],2))+'%'
     print(out)
 ```
 ### Output
