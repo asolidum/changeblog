@@ -103,7 +103,6 @@ Top Ten % - 54.25%
 ```python
 second_top5_tag_pct = tag_pct[5]+tag_pct[6]+tag_pct[7]+tag_pct[8]+tag_pct[9]
 other_tags = 100-top_ten_totals_pct
-x = [11.78, 10.68, 7.4, 4.66, 4.11, tags6_10, other_tags]
 x = [
     tag_pct[0], tag_pct[1], tag_pct[2], tag_pct[3], tag_pct[4],
     second_top5_tag_pct, other_tags
