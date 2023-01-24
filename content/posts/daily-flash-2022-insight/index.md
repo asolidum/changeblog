@@ -107,7 +107,10 @@ x = [
     tag_pct[0], tag_pct[1], tag_pct[2], tag_pct[3], tag_pct[4],
     second_top5_tag_pct, other_tags
 ]
-labels = [ 'seattle (#1)', 'cat (#2)', 'f1 (#3)', 'snow (#4)', 'computer (#5)', '3dprinter,\nnetflix,\nknit,\nmovie,\nfood\n(#6-10)', 'other tags' ]
+labels = [
+    'seattle (#1)', 'cat (#2)', 'f1 (#3)', 'snow (#4)', 'computer (#5)',
+    '3dprinter,\nnetflix,\nknit,\nmovie,\nfood\n(#6-10)', 'other tags'
+]
 colors = plt.get_cmap('Paired')(np.linspace(0.1, 0.8, len(x)))
 
 # plot
