@@ -20,8 +20,6 @@ I was thrilled to have kept up this habit for over a year. With the videos and c
 
 You can see the data analysis in action on this [Deepnote Python notebook][deepnote.link].
 
-[deepnote.link]: https://deepnote.com/@also/2022-Daily-Flash-Tag-Analysis-75d4af3c-5212-43c1-9bdd-e960c20bce71
-
 ## Setup
 We need to pull the tags from our `dailyfla.sh` bash script (available on [github][github.link]).
 
@@ -132,10 +130,12 @@ plt.show()
 Given I live in Seattle, having 11.8% of my days tagged there wasn't terribly surprising. Interestingly, almost 11% (about 39 days) had `cat` tags. While we don't have a cat of our own, we spend a lot of time cat-sitting. In retrospect, I guess it makes sense, given the general popularity of cat videos. It could also be a reflection of my own preference for incorporating cat content in my monthly uploads. My girlfriend's recent knitting hobby also made a surprise appearance on the list, coming in at 8th place, despite her taking up the activity in mid-September.
 
 ### Related Links
+* [Deepnote Python notebook][deepnote.link]
 * [Daily Fla.sh Blog Post][blog.link]
 * [Daily Fla.sh Git Repo][github.link]
 * [My 2022 Daily Fla.sh YouTube Playlist][youtube-playlist.link]
 
+[deepnote.link]: https://deepnote.com/@also/2022-Daily-Flash-Tag-Analysis-75d4af3c-5212-43c1-9bdd-e960c20bce71
 [blog.link]: https://alansolidum.com/posts/daily-flash
 [github.link]: https://github.com/asolidum/dailyfla.sh
 [youtube-playlist.link]: https://www.youtube.com/watch?v=WNUWIJkNK2Y&list=PL2u0OXvqrDk3LEK55fGMiaIBTp5oph898
