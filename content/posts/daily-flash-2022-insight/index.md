@@ -119,6 +119,9 @@ patches, texts, pcts  = ax.pie(
     autopct='%.1f%%', pctdistance=.83,
     labeldistance=1.1,
     wedgeprops={"linewidth": 3, "edgecolor": "white"}, frame=False)
+for i, patch in enumerate(patches):
+    texts[i].set_color(patch.get_facecolor())
+plt.setp(texts, fontweight=600)
 plt.setp(pcts, color='white', fontweight=600)
 
 plt.show()
